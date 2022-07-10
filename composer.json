@@ -1,0 +1,25 @@
+{
+    "name": "initphp/http-factory",
+    "description": "PSR17 HTTP Factory Library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "InitPHP\\HTTPFactory\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammet ŞAFAK",
+            "email": "info@muhammetsafak.com.tr",
+            "role": "Developer",
+            "homepage": "https://www.muhammetsafak.com.tr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "psr/http-factory": "^1.0",
+        "initphp/http": "^1.0"
+    }
+}
