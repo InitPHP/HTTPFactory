@@ -1,8 +1,9 @@
 {
     "name": "initphp/http-factory",
-    "description": "PSR17 HTTP Factory Library",
+    "description": "PSR17 HTTP Factory Library (DEPRECATED — merged into initphp/http:^2.2)",
     "type": "library",
     "license": "MIT",
+    "abandoned": "initphp/http",
     "autoload": {
         "psr-4": {
             "InitPHP\\HTTPFactory\\": "src/"
